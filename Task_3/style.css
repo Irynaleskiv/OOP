@@ -1,0 +1,71 @@
+* {
+  font-family: 'Cardo', serif;
+}
+
+body {
+  background: url(img/giphy.gif);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+form {
+  padding: 5px;
+  margin: auto;
+}
+
+form input {
+  display: block;
+  margin-bottom: 2px;
+  padding: 2px;
+  max-width: 280px;
+  border: 2px solid #a3a3a3;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  width: 60px;
+  height: 30px;
+  background: white;
+  border: 1px solid #676767;
+  border-radius: 5px;
+
+}
+table {
+  background: url(img/2.jpg);
+  margin: 10px auto;
+  border: 2px solid #16123e;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 3px;
+}
+
+input[name="gender"] {
+  display: inline;
+}
+
+#form {
+  border: 2px solid #16123e;
+  border-radius: 5px;
+  background: url(img/2.jpg);
+  align-content: center;
+  max-width: 300px;
+  margin: auto;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.hiddenRow{
+  visibility:hidden;
+}
+
+.visibleTd{
+  visibility:visible;
+}
