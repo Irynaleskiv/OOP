@@ -1,0 +1,54 @@
+body {
+  background: url(img/4.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+h2, h3, li {
+  padding: 4px 10px;
+  margin:0;
+}
+
+h2 {
+  font-size:25px;
+  }
+
+ul {
+  display:block;
+  list-style:none;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  }
+
+li {
+  font-size: 16px;
+} 
+
+#bill {
+  background: url(img/cat.jpg);
+  background-repeat: no-repeat;
+  border: 2px solid #ae9f9b;
+  border-radius: 15px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  max-width: 450px;
+  height: 500px;
+  float: right;
+  margin-right: 40px;
+  text-align: center;
+}
+
+#totalBill {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#billItems {
+  -webkit-column-count:5;
+  -moz-column-count:5;
+   column-count:5;
+}
